@@ -20,3 +20,7 @@ module.exports.readNameAndRespond = function(req, res, next) {
     var value_name = req.params.name;  //retrieve the data associated with name
     res.send("hello " + value_name);
 };
+
+module.exports.doit = function(req, res, next) {
+    res.send("hi");
+}
