@@ -10,4 +10,4 @@ module.exports = router;
 
 var controllerMain = require('../controllers/main');
 
-router.get('/readNameAndRespond/:name', controllerMain.readNameAndRespond);
+//router.get('/readNameAndRespond/:name', controllerMain.readNameAndRespond);
